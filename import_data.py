@@ -25,7 +25,7 @@ try:
     logging.info('data frame converted in to list of dictionary')
 
     # mongo db atlas url
-    mongo_uri='mongodb+srv://nishantkaushal:nishantkaushal@cluster0.vypsxre.mongodb.net/breast_cancer_assignment'
+    mongo_uri='mongodb+srv://nishantkaushal:*******@cluster0.vypsxre.mongodb.net/breast_cancer_assignment'
 
     #connect to mongodb atlas
     client=MongoClient(mongo_uri)
